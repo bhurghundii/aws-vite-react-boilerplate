@@ -17,10 +17,6 @@ Follow the steps below to set up and use the **aws-vite-react-boilerplate** boil
 
 1. Clone this repository to your local machine.
 
-```shell
-git clone https://github.com/your-username/project-name.git
-```
-
 2. Install the dependencies using your preferred package manager (npm or Yarn).
 
 ```shell
