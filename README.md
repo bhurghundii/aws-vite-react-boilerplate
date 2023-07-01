@@ -75,9 +75,11 @@ amplify publish
 
 3. If your app has multiple pages (like in this boilerplate), your users will get an Access Denied as they navigate through your app.
 
-To fix this, go to the Amplify console where your project is maintained and go to **Rewrites and redirects** and add the following line: 
+To fix this, go to the Amplify console where your project is maintained and go to **Rewrites and redirects** and add the following config:
 
-![image](https://github.com/vikadilly/aws-vite-react-boilerplate/assets/24465934/cbe7e8c5-0216-401b-89fb-3b8c1e605e80)
+Source address: /^[^.]+$|\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|ttf|map|json)$)([^.]+$)/>	
+Target address: /index.html	
+Type: 200 (Rewrite)	
 
 This should fix it! 
 
