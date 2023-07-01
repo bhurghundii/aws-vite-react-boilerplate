@@ -33,7 +33,7 @@ yarn install
 amplify init
 ```
 
-⚠️ When configuring Amplify, mame sure your build folder is pointed towards dist
+⚠️ When configuring Amplify, make sure your build folder is pointed towards dist
 
 This will give you an <code> amplify </code> folder which is necessary to interact with AWS Amplify 
 
