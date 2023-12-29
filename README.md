@@ -1,15 +1,15 @@
 # aws-vite-react-boilerplate
 
-aws-vite-react-boilerplate is a modern boilerplate template code that combines React, AWS, and Vite to provide a streamlined development experience. It aims to accelerate the setup process and enable developers to quickly jumpstart their projects with an efficient and well-integrated stack.
+This is a boilerplate template used to bootstrap a full stack app using AWS. There is also a back-end component too. This uses Amplify
 
 # ✨ Features
+
 - 🚀 **React**: Harness the power of React, a popular JavaScript library for building user interfaces, to create dynamic and interactive web applications.
 - ☁️ **AWS**: Leverage AWS services and infrastructure through AWS Amplify to build scalable and secure applications in the cloud.
 - 💪 **TypeScript**: Written using TypeScript, enjoy improved code quality, type-safety and a better developer experience.
 - ⚡️ **Vite**: Utilize Vite, a fast and efficient build tool, to enhance development speed and optimize the performance of your application.
 - 📦 **Test Using Cypress and Jest**: Deliver quality with boilerplate that includes some starter tests to get you started.
-- 🎨 **Tailwind CSS Integration**: Develop a sleek and modern user interface design powered by a delightful developer experience.
-
+- 🎨 **Material UI Integration**: Material UI to soup you up all the front end components cause CSS is hard.
 
 # 🛠️ Setup and Usage
 
@@ -39,7 +39,7 @@ amplify init
 
 ⚠️ When configuring Amplify, mame sure your build folder is pointed towards dist
 
-This will give you an <code> amplify </code> folder which is necessary to interact with AWS Amplify 
+This will give you an <code> amplify </code> folder which is necessary to interact with AWS Amplify
 
 4. Set up Amplify Auth to allow your users to log in. This boilerplate was built using just the Username option, but this can be modified if you require more options such as social media providers.
 
@@ -67,7 +67,7 @@ yarn dev
 amplify hosting add
 ```
 
-2. Deploy your frontend. 
+2. Deploy your frontend.
 
 ```shell
 amplify publish
@@ -75,11 +75,11 @@ amplify publish
 
 3. If your app has multiple pages (like in this boilerplate), your users will get an Access Denied as they navigate through your app.
 
-To fix this, go to the Amplify console where your project is maintained and go to **Rewrites and redirects** and add the following line: 
+To fix this, go to the Amplify console where your project is maintained and go to **Rewrites and redirects** and add the following line:
 
 ![image](https://github.com/vikadilly/aws-vite-react-boilerplate/assets/24465934/cbe7e8c5-0216-401b-89fb-3b8c1e605e80)
 
-This should fix it! 
+This should fix it!
 
 # Boilerplate Structure
 
@@ -100,10 +100,11 @@ This should fix it!
 Feel free to adapt the structure based on your project's needs.
 
 # 🤝 Contribution
+
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request. Together, we can make this project even better.
 
 # 📝 License
+
 This project is licensed under the MIT License.
 
 Happy coding! If you have any questions or need assistance, feel free to reach out to our friendly community. Enjoy building awesome applications with this template! 😄🚀
-
